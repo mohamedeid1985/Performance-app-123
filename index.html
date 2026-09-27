@@ -877,9 +877,17 @@ function render(){
     ${renderTopbar()}
     ${renderStepper()}
     <main class="${stepChanged ? 'step-anim' : ''}">${renderStep()}</main>
+    ${renderAppFooter()}
   `;
   if(state.step===1) initDashboardCharts();
   saveState();
+}
+function renderAppFooter(){
+  return `<div class="no-print" style="text-align:center; padding:18px 10px; margin-top:10px; font-size:12px; color:var(--muted,#889);">
+    Created by: <strong>Mohamed Eid</strong> &nbsp;|&nbsp;
+    Gmail: <a href="mailto:mohammad.eid1985@gmail.com" style="color:inherit;">mohammad.eid1985@gmail.com</a> &nbsp;|&nbsp;
+    WhatsApp: <a href="https://wa.me/201157915214" target="_blank" rel="noopener" style="color:inherit;">01157915214</a>
+  </div>`;
 }
 function renderTopbar(){
   const u = currentUser();
@@ -932,7 +940,8 @@ function renderAuthScreen(){
         <button class="btn btn-primary" style="width:100%;" onclick="${mode==='signup'?'doSignUp()':'doSignIn()'}">${esc(mode==='signup'?t('firstAdminBtn'):t('loginBtn'))}</button>
       </div>
     </div>
-  </div>`;
+  </div>
+  ${renderAppFooter()}`;
 }
 function setAuthMode(m){ state.ui.authMode = m; state.ui.authError=''; render(); }
 async function doSignIn(){
