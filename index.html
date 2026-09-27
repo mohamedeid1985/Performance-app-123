@@ -402,6 +402,26 @@ const I18N = {
     firstAdminBtn:'إنشاء الحساب وتسجيل الدخول', firstAdminCreated:'تم إنشاء حساب المدير وتسجيل الدخول',
     signUp:'حساب جديد', authPassword:'كلمة المرور', confirmEmailHint:'تم إنشاء الحساب — تحقق من بريدك الإلكتروني لتأكيده، ثم سجّل الدخول من هنا',
     loadingApp:'جارِ التحميل...',
+    authCompanyChoice:'شركتك', authNewCompany:'شركة جديدة', authJoinCompany:'الانضمام لشركة موجودة',
+    authCompanyNamePh:'اسم شركتك', authInviteCodePh:'كود الدعوة اللي إداك إياه مدير شركتك',
+    authNewCompanyHint:'هتبقى أنت مدير (Admin) هذه الشركة، وتقدر تدعو زمايلك بكود الدعوة اللي هيظهرلك بعد التسجيل.',
+    authJoinCompanyHint:'اطلب كود الدعوة من مدير شركتك (يظهره في لوحة التحكم) عشان تنضم لبياناتها.',
+    companyInfoTitle:'بيانات الشركة', companyPlanTrial:'نسخة تجريبية', companyPlanFull:'نسخة كاملة',
+    companyInviteCodeLabel:'كود دعوة الزملاء', companyInviteCodeHint:'شارك الكود ده مع زمايلك في نفس الشركة عشان ينضموا لبياناتك (يختاروا "الانضمام لشركة موجودة" وقت التسجيل).',
+    companyEmployeeUsage:'الموظفين المستخدمين', companyEvalMethodsAllowed:'أنواع التقييم المتاحة',
+    trialLimitReachedEmp:'وصلت للحد الأقصى لعدد الموظفين في النسخة التجريبية. تواصل معايا لترقية الباقة.',
+    trialLimitEvalMethod:'نوع التقييم ده مش متاح في النسخة التجريبية. تواصل معايا لترقية الباقة.',
+    trialContactHint:'عشان ترقّي لنسخة كاملة: حوّل قيمة الاشتراك على Instapay رقم 01229543271، وابعتلنا صورة (Screenshot) لإتمام التحويل مع اسم شركتك/اليوزر بتاعك على واتساب 01157915214 أو إيميل mohammad.eid1985@gmail.com، وهنفعّل حسابك بأسرع وقت.',
+    copied:'تم النسخ', save:'حفظ',
+    platformAdminBtn:'إدارة المنصة', platformAdminTitle:'إدارة كل الشركات المشتركة',
+    platformAdminHint:'رقّي أو نزّلي أي شركة بين النسخة التجريبية والكاملة، وحدد سقف الموظفين وأنواع التقييم المسموحة، بعد ما تستلم الدفع منهم مباشرة (Instapay/فودافون كاش/PayPal...).',
+    platformColCompany:'الشركة', platformColAdmin:'الأدمن', platformColPlan:'الباقة',
+    platformColPayment:'حالة الدفع', platformRecordPayment:'تسجيل دفعة', platformPaidUntil:'مدفوع لحد',
+    platformStatusNeverPaid:'تجريبي (لسه مدفعش)', platformStatusActive:'مشترك فعليًا', platformStatusExpiringSoon:'هينتهي قريب', platformStatusExpired:'الاشتراك منتهي',
+    platformAmount:'المبلغ (جنيه)', platformMethod:'طريقة الدفع', platformNote:'ملاحظة (اختياري)', platformExtendDays:'مدة الاشتراك (يوم)',
+    platformConfirmPayment:'تأكيد الدفعة', platformCancel:'إلغاء', platformNoPaymentYet:'مفيش دفعة متسجلة لسه',
+    pricingBtn:'💰 الأسعار', pricingTitle:'خطط الأسعار', pricingHint:'الأسعار بالجنيه المصري ثابتة، والمعادل بالدولار تقريبي وبيتحدث أوتوماتيك حسب سعر الصرف الحالي.',
+    pricingPerMonth:'شهريًا', pricingContactUs:'تواصل معانا', pricingUpdated:'آخر تحديث لسعر الصرف:', pricingRateLoading:'جاري تحميل سعر الصرف...',
     securityNote:'⚠️ هذا النظام يعمل بالكامل من المتصفح بدون خادم مركزي، لذلك نظام الصلاحيات هنا تنظيمي لتسهيل العمل داخل الفريق وليس حماية أمنية حقيقية — أي شخص يملك أدوات المطوّر بالمتصفح يمكنه تجاوزه. لا تستخدمه لحماية بيانات حساسة فعليًا.',
     s5Title:'الأقسام والهيكل الإداري', s5Sub:'حدد مدير كل قسم ورئيس القسم والمشرف، واستعرض الهيكل التنظيمي',
     deptName:'اسم القسم', deptManager:'مدير القسم', deptSectionHead:'رئيس القسم', deptSupervisor:'المشرف',
@@ -542,6 +562,26 @@ const I18N = {
     firstAdminBtn:'Create account & sign in', firstAdminCreated:'Admin account created and signed in',
     signUp:'Sign up', authPassword:'Password', confirmEmailHint:'Account created — check your email to confirm it, then sign in here',
     loadingApp:'Loading...',
+    authCompanyChoice:'Your company', authNewCompany:'New company', authJoinCompany:'Join an existing company',
+    authCompanyNamePh:'Your company name', authInviteCodePh:'Invite code from your company admin',
+    authNewCompanyHint:'You will become this company\'s Admin, and can invite teammates with the invite code shown after signup.',
+    authJoinCompanyHint:'Ask your company admin for the invite code (shown on their dashboard) to join their data.',
+    companyInfoTitle:'Company info', companyPlanTrial:'Trial plan', companyPlanFull:'Full plan',
+    companyInviteCodeLabel:'Teammate invite code', companyInviteCodeHint:'Share this code with teammates at your company so they can join your data (they choose "Join an existing company" when signing up).',
+    companyEmployeeUsage:'Employees used', companyEvalMethodsAllowed:'Evaluation types available',
+    trialLimitReachedEmp:'You\'ve reached the trial plan\'s employee limit. Contact me to upgrade.',
+    trialLimitEvalMethod:'This evaluation type isn\'t available on the trial plan. Contact me to upgrade.',
+    trialContactHint:'To upgrade to the full version: transfer the subscription fee via Instapay to 01229543271, then send us a screenshot of the payment confirmation with your company/user name on WhatsApp 01157915214 or email mohammad.eid1985@gmail.com, and we\'ll activate your account right away.',
+    copied:'Copied', save:'Save',
+    platformAdminBtn:'Platform Admin', platformAdminTitle:'Manage every company on the platform',
+    platformAdminHint:'Upgrade or downgrade any company between trial and full, and set their employee limit and allowed evaluation types, once you\'ve received their payment directly (Instapay/Vodafone Cash/PayPal/etc.).',
+    platformColCompany:'Company', platformColAdmin:'Admin', platformColPlan:'Plan',
+    platformColPayment:'Payment status', platformRecordPayment:'Record payment', platformPaidUntil:'Paid until',
+    platformStatusNeverPaid:'Trial (never paid)', platformStatusActive:'Active subscriber', platformStatusExpiringSoon:'Expiring soon', platformStatusExpired:'Subscription expired',
+    platformAmount:'Amount (EGP)', platformMethod:'Payment method', platformNote:'Note (optional)', platformExtendDays:'Extend by (days)',
+    platformConfirmPayment:'Confirm payment', platformCancel:'Cancel', platformNoPaymentYet:'No payment recorded yet',
+    pricingBtn:'💰 Pricing', pricingTitle:'Pricing plans', pricingHint:'EGP prices are fixed; the USD equivalent is approximate and updates automatically with the current exchange rate.',
+    pricingPerMonth:'/month', pricingContactUs:'Contact us', pricingUpdated:'Exchange rate last updated:', pricingRateLoading:'Loading exchange rate...',
     securityNote:'⚠️ This system runs entirely in the browser with no central server, so this permissions layer is for organizing teamwork, not real security — anyone with browser dev tools can bypass it. Do not rely on it to protect genuinely sensitive data.',
     s5Title:'Departments & Org Structure', s5Sub:'Set each department\'s manager, section head and supervisor, and view the org chart',
     deptName:'Department Name', deptManager:'Department Manager', deptSectionHead:'Section Head', deptSupervisor:'Supervisor',
@@ -603,7 +643,8 @@ const DEFAULT_STATE = {
   costCenters:[],    // [{id, code, name, departmentName, managerName, status}]
   templates:{kpi:[], mbo:[], bars:[], '360':[]}, // job-grade linked goal/KPI templates
   users:[], // {id,email,name,role:'admin'|'manager'|'sectionhead'|'supervisor', department, perms:{add,remove,evaluate,print}}
-  session:{ userId:null, authReady:false },
+  company:null, // {id,name,plan:'trial'|'full',employeeLimit,allowedEvalMethods,inviteCode} — this company/tenant's own row
+  session:{ userId:null, authReady:false, companyId:null, isPlatformOwner:false },
   ui:{ dbTab:'manual', editingEmployeeId:null, excelHeaders:[], excelRows:[], excelFileName:'', mapping:{}, importDeptCC:{}, search:'', dbDeptFilter:'', dbCatFilter:'',
        evalEmployeeId:null, evalMethod:null, evalDept:'', viewResultId:null,
        kpiRows:[], mboRows:[], comp360:[], compBars:[], rankGroupKey:'', rankRows:[],
@@ -612,10 +653,14 @@ const DEFAULT_STATE = {
        tplFile:{kpi:null,mbo:null,bars:null,'360':null},
        orgFilterManager:'', orgSearch:'', orgExpanded:{}, profileModalId:null, editingDept:null, editingUserId:null, loginInput:'',
        showTemplatesModal:false, showLoginModal:false, dashDeptFilter:'', dashMethodFilter:'',
-       authMode:'signin', authError:'',
-       deptTab:'departments', editingFamilyId:null, editingLevelId:null, editingCostCenterId:null }
+       authMode:'signin', authError:'', authJoinMode:'new', authCompanyName:'', authInviteCode:'',
+       deptTab:'departments', editingFamilyId:null, editingLevelId:null, editingCostCenterId:null,
+       showPlatformAdmin:false, platformEdits:{}, platformPaymentFormFor:null, showPricing:false }
 };
 let state = JSON.parse(JSON.stringify(DEFAULT_STATE));
+let platformCompanies = []; // loaded on demand for the platform-owner admin panel; not per-tenant state, never synced
+let usdEgpRate = null;      // live USD→EGP rate for the public pricing table (see fetchUsdEgpRate)
+let usdEgpRateAt = null;
 /* IDs must be real UUIDs now: employees/job_families/job_levels/cost_centers
    all have a Postgres `uuid` primary key, and every id created client-side
    (new employee, new cost center, ...) gets upserted straight into it. */
@@ -640,23 +685,30 @@ const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 function empFromRow(r){ return { id:r.id, code:r.code||'', name:r.name||'', jobTitle:r.job_title||'', jobCategory:r.job_category||'',
   department:r.department||'', managerName:r.manager_name||'', managerTitle:r.manager_title||'', hireDate:r.hire_date||'',
   contractType:r.contract_type||'', jobFamilyId:r.job_family_id||'', jobGrade:r.job_grade||'' }; }
-function empToRow(e){ return { id:e.id, code:e.code||'', name:e.name||'', job_title:e.jobTitle||'', job_category:e.jobCategory||'',
+function empToRow(e){ return { id:e.id, company_id:state.session.companyId, code:e.code||'', name:e.name||'', job_title:e.jobTitle||'', job_category:e.jobCategory||'',
   department:e.department||'', manager_name:e.managerName||'', manager_title:e.managerTitle||'', hire_date:e.hireDate||null,
   contract_type:e.contractType||'', job_family_id:e.jobFamilyId||null, job_grade:e.jobGrade||'' }; }
 function userFromRow(r){ return { id:r.id, email:r.email, name:r.name, role:r.role, department:r.department||'', grade:r.grade||'', perms: r.perms||{add:false,remove:false,evaluate:false,print:false} }; }
 function levelFromRow(r){ return { id:r.id, name:r.name, rank:r.rank, active:r.active, perms:r.perms||{add:false,remove:false,evaluate:false,print:false} }; }
 function familyFromRow(r){ return { id:r.id, name:r.name, archived:r.archived }; }
 function ccFromRow(r){ return { id:r.id, code:r.code, name:r.name, departmentName:r.department_name||'', managerName:r.manager_name||'', status:r.status||'active' }; }
-function ccToRow(c){ return { id:c.id, code:c.code, name:c.name, department_name:c.departmentName||'', manager_name:c.managerName||'', status:c.status||'active' }; }
+function ccToRow(c){ return { id:c.id, company_id:state.session.companyId, code:c.code, name:c.name, department_name:c.departmentName||'', manager_name:c.managerName||'', status:c.status||'active' }; }
 function deptFromRow(r){ return { manager:r.manager||'', sectionHead:r.section_head||'', supervisor:r.supervisor||'', businessUnit:r.business_unit||'',
   costCenterCode:r.cost_center_code||'', evalMethod:r.eval_method||null, status:r.status||'active', followers:r.followers||[] }; }
-function deptToRow(name, d){ return { name, manager:d.manager||'', section_head:d.sectionHead||'', supervisor:d.supervisor||'', business_unit:d.businessUnit||'',
+function deptToRow(name, d){ return { name, company_id:state.session.companyId, manager:d.manager||'', section_head:d.sectionHead||'', supervisor:d.supervisor||'', business_unit:d.businessUnit||'',
   cost_center_code:d.costCenterCode||'', eval_method:d.evalMethod||null, status:d.status||'active', followers:d.followers||[] }; }
-function evalToRow(empId, ev){ return { employee_id:empId, method:ev.method, data:ev.data||{}, score:ev.score, eval_date:ev.date, evaluated_by:ev.evaluatedBy||'' }; }
+function evalToRow(empId, ev){ return { employee_id:empId, company_id:state.session.companyId, method:ev.method, data:ev.data||{}, score:ev.score, eval_date:ev.date, evaluated_by:ev.evaluatedBy||'' }; }
 
 /* Loads every table into `state` after a successful sign-in. */
 async function loadAllData(){
-  const [profiles, employees, depts, families, levels, ccs, evals, settings] = await Promise.all([
+  // Resolve this account's own company_id first — every other table read
+  // below is RLS-scoped to it, but the client still needs to know it to
+  // tag new rows it writes (see empToRow/deptToRow/... and state.session.companyId).
+  const myProfile = await sb.from('profiles').select('company_id, is_platform_owner').eq('id', state.session.userId).maybeSingle();
+  state.session.companyId = myProfile.data ? myProfile.data.company_id : null;
+  state.session.isPlatformOwner = !!(myProfile.data && myProfile.data.is_platform_owner);
+
+  const [profiles, employees, depts, families, levels, ccs, evals, settings, company] = await Promise.all([
     sb.from('profiles').select('*'),
     sb.from('employees').select('*'),
     sb.from('departments').select('*'),
@@ -664,8 +716,14 @@ async function loadAllData(){
     sb.from('job_levels').select('*').order('rank'),
     sb.from('cost_centers').select('*'),
     sb.from('evaluations').select('*'),
-    sb.from('app_settings').select('*').eq('id',1).maybeSingle(),
+    sb.from('app_settings').select('*').eq('company_id', state.session.companyId).maybeSingle(),
+    sb.from('companies').select('*').eq('id', state.session.companyId).maybeSingle(),
   ]);
+  if(company.data){
+    state.company = { id:company.data.id, name:company.data.name, plan:company.data.plan,
+      employeeLimit:company.data.employee_limit, allowedEvalMethods:company.data.allowed_eval_methods||['kpi'],
+      inviteCode:company.data.invite_code };
+  }
   state.users = (profiles.data||[]).map(userFromRow);
   state.employees = (employees.data||[]).map(empFromRow);
   state.departments = {};
@@ -682,8 +740,8 @@ async function loadAllData(){
   if(state.jobFamilies.length===0 && state.jobLevels.length===0){
     seedJobArchitectureDefaults();
     await Promise.all([
-      sb.from('job_families').upsert(state.jobFamilies.map(f=>({id:f.id,name:f.name,archived:f.archived}))),
-      sb.from('job_levels').upsert(state.jobLevels.map(l=>({id:l.id,name:l.name,rank:l.rank,active:l.active,perms:l.perms}))),
+      sb.from('job_families').upsert(state.jobFamilies.map(f=>({id:f.id,company_id:state.session.companyId,name:f.name,archived:f.archived}))),
+      sb.from('job_levels').upsert(state.jobLevels.map(l=>({id:l.id,company_id:state.session.companyId,name:l.name,rank:l.rank,active:l.active,perms:l.perms}))),
     ]);
   }
 }
@@ -710,12 +768,12 @@ async function doSyncStateToSupabase(){
     // since those are the only paths the database's RLS policies allow.
     const deptRows = Object.keys(state.departments).map(name=>deptToRow(name, state.departments[name]));
     if(deptRows.length) jobs.push(sb.from('departments').upsert(deptRows));
-    if((state.jobFamilies||[]).length) jobs.push(sb.from('job_families').upsert(state.jobFamilies.map(f=>({id:f.id,name:f.name,archived:f.archived}))));
-    if((state.jobLevels||[]).length) jobs.push(sb.from('job_levels').upsert(state.jobLevels.map(l=>({id:l.id,name:l.name,rank:l.rank,active:l.active,perms:l.perms}))));
+    if((state.jobFamilies||[]).length) jobs.push(sb.from('job_families').upsert(state.jobFamilies.map(f=>({id:f.id,company_id:state.session.companyId,name:f.name,archived:f.archived}))));
+    if((state.jobLevels||[]).length) jobs.push(sb.from('job_levels').upsert(state.jobLevels.map(l=>({id:l.id,company_id:state.session.companyId,name:l.name,rank:l.rank,active:l.active,perms:l.perms}))));
     if((state.costCenters||[]).length) jobs.push(sb.from('cost_centers').upsert(state.costCenters.map(ccToRow)));
     const evalRows = Object.keys(state.evaluations).map(empId=>evalToRow(empId, state.evaluations[empId]));
     if(evalRows.length) jobs.push(sb.from('evaluations').upsert(evalRows));
-    jobs.push(sb.from('app_settings').upsert({id:1, grade_map:state.gradeMap||{}, family_map:state.familyMap||{}, templates:state.templates||{kpi:[],mbo:[],bars:[],'360':[]}}));
+    jobs.push(sb.from('app_settings').upsert({company_id:state.session.companyId, grade_map:state.gradeMap||{}, family_map:state.familyMap||{}, templates:state.templates||{kpi:[],mbo:[],bars:[],'360':[]}}));
     await Promise.all(jobs);
   }catch(e){ /* best-effort, same spirit as the old saveState()'s silent catch */ }
 }
@@ -850,6 +908,13 @@ function computeBand(score){
 function fmtNum(n){ return Math.round(n*10)/10; }
 function fmtDate(d){ if(!d) return ''; try{ return new Date(d).toLocaleDateString(state.lang==='ar'?'ar-EG':'en-GB'); }catch(e){ return d; } }
 function employeeById(id){ return state.employees.find(e=>e.id===id); }
+/* Trial-plan helpers — the real enforcement lives in Postgres triggers
+   (enforce_employee_limit / enforce_eval_method_allowed), these are just
+   a friendlier client-side check so the user gets an immediate message
+   instead of a silent background sync failure. */
+function isTrialPlan(){ return (state.company && state.company.plan) === 'trial'; }
+function employeeLimitReached(extra){ extra = extra||0; if(!state.company) return false; return (state.employees.length+extra) > (state.company.employeeLimit||Infinity); }
+function evalMethodAllowed(method){ if(!state.company) return true; return (state.company.allowedEvalMethods||['kpi']).includes(method); }
 function methodLabel(m){ return {kpi:t('m_kpi'), mbo:t('m_mbo'), '360':t('m_360'), bars:t('m_bars'), ranking:t('m_rank')}[m]||m; }
 
 /* ============================== Render root ============================== */
@@ -878,6 +943,7 @@ function render(){
     ${renderStepper()}
     <main class="${stepChanged ? 'step-anim' : ''}">${renderStep()}</main>
     ${renderAppFooter()}
+    ${state.ui.showPlatformAdmin ? renderPlatformAdminModal() : ''}
   `;
   if(state.step===1) initDashboardCharts();
   saveState();
@@ -902,12 +968,162 @@ function renderTopbar(){
     </div>
     <div class="top-actions">
       <span class="pill-btn" style="background:rgba(201,154,59,0.25);border-color:var(--gold);">👤 ${esc(u?u.name:'')} · ${esc(u?roleLabel(u.role):'')}</span>
+      ${state.session.isPlatformOwner ? `<button class="pill-btn" onclick="openPlatformAdmin()">🛠️ ${esc(t('platformAdminBtn'))}</button>` : ''}
       <button class="pill-btn" onclick="doLogout()">${esc(t('logout'))}</button>
       <button class="icon-pill" onclick="toggleTheme()">${state.theme==='dark'?'☀️':'🌙'}</button>
       <button class="icon-pill" onclick="toggleLang()">🌐</button>
     </div>
   </div>
   `;
+}
+/* ============================== Platform-owner admin panel ==============================
+   Visible only to the platform owner (state.session.isPlatformOwner, set from
+   profiles.is_platform_owner — enforced server-side too, both RPCs below
+   re-check public.is_platform_owner() and reject anyone else). Lets Mohamed
+   upgrade/downgrade any company's plan from inside the app instead of running
+   SQL by hand after a manual payment (Instapay/Vodafone Cash/PayPal/etc.). */
+async function openPlatformAdmin(){
+  const { data, error } = await sb.rpc('platform_list_companies');
+  if(error){ showToast(error.message); return; }
+  platformCompanies = data||[];
+  state.ui.platformEdits = {};
+  platformCompanies.forEach(c=>{
+    state.ui.platformEdits[c.id] = { plan:c.plan, employeeLimit:c.employee_limit, allowedEvalMethods:(c.allowed_eval_methods||['kpi']).slice() };
+  });
+  state.ui.showPlatformAdmin = true;
+  render();
+}
+function closePlatformAdmin(){ state.ui.showPlatformAdmin = false; state.ui.platformPaymentFormFor = null; render(); }
+/* Payment status is computed purely from paid_until (a date Mohamed extends
+   manually via platform_record_payment) — never paid = still on trial,
+   in the future = active, within a week = expiring soon, in the past = expired.
+   Nothing here auto-downgrades an expired company; that stays a deliberate
+   manual step (switch its plan back to trial in the row above) so no one
+   gets locked out by a missed payment automatically. */
+function paymentStatusInfo(c){
+  if(!c.paid_until) return { key:'platformStatusNeverPaid', cls:'badge-navy' };
+  const today = new Date(); today.setHours(0,0,0,0);
+  const until = new Date(c.paid_until+'T00:00:00');
+  const daysLeft = Math.round((until-today)/86400000);
+  if(daysLeft < 0) return { key:'platformStatusExpired', cls:'badge-red' };
+  if(daysLeft <= 7) return { key:'platformStatusExpiringSoon', cls:'badge-orange' };
+  return { key:'platformStatusActive', cls:'badge-green' };
+}
+function openPlatformPaymentForm(companyId){ state.ui.platformPaymentFormFor = companyId; render(); }
+function closePlatformPaymentForm(){ state.ui.platformPaymentFormFor = null; render(); }
+async function submitPlatformPayment(companyId){
+  const amount = parseFloat(document.getElementById('pf_amount').value);
+  const method = document.getElementById('pf_method').value;
+  const note = document.getElementById('pf_note').value.trim();
+  const extendDays = parseInt(document.getElementById('pf_days').value,10)||30;
+  if(!amount || amount<=0){ showToast(t('requiredWarn')); return; }
+  const { error } = await sb.rpc('platform_record_payment', {
+    p_company_id: companyId, p_amount: amount, p_method: method, p_note: note||null, p_extend_days: extendDays
+  });
+  if(error){ showToast(error.message); return; }
+  showToast('✓');
+  state.ui.platformPaymentFormFor = null;
+  await openPlatformAdmin();
+}
+function setPlatformEditField(companyId, field, value){
+  const ed = state.ui.platformEdits[companyId];
+  if(!ed) return;
+  if(field==='plan') ed.plan = value;
+  if(field==='employeeLimit') ed.employeeLimit = parseInt(value,10)||0;
+  render();
+}
+function togglePlatformEvalMethod(companyId, method){
+  const ed = state.ui.platformEdits[companyId];
+  if(!ed) return;
+  const i = ed.allowedEvalMethods.indexOf(method);
+  if(i>-1) ed.allowedEvalMethods.splice(i,1); else ed.allowedEvalMethods.push(method);
+  render();
+}
+async function savePlatformCompanyPlan(companyId){
+  const ed = state.ui.platformEdits[companyId];
+  if(!ed) return;
+  const { error } = await sb.rpc('platform_update_company_plan', {
+    p_company_id: companyId, p_plan: ed.plan, p_employee_limit: ed.employeeLimit, p_allowed_eval_methods: ed.allowedEvalMethods
+  });
+  if(error){ showToast(error.message); return; }
+  showToast('✓');
+  await openPlatformAdmin(); // reload fresh data (also refreshes employee_count)
+}
+function renderPlatformAdminModal(){
+  return `
+  <div class="modal-overlay no-print" onclick="if(event.target===this) closePlatformAdmin()">
+    <div class="modal" style="max-width:920px; width:96%;">
+      <h3>🛠️ ${esc(t('platformAdminTitle'))}</h3>
+      <p class="hint">${esc(t('platformAdminHint'))}</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>${esc(t('platformColCompany'))}</th>
+            <th>${esc(t('platformColAdmin'))}</th>
+            <th>${esc(t('companyInviteCodeLabel'))}</th>
+            <th>${esc(t('companyEmployeeUsage'))}</th>
+            <th>${esc(t('platformColPlan'))}</th>
+            <th>${esc(t('companyEvalMethodsAllowed'))}</th>
+            <th>${esc(t('platformColPayment'))}</th>
+            <th></th>
+          </tr></thead>
+          <tbody>
+            ${platformCompanies.map(c=>{
+              const ed = state.ui.platformEdits[c.id] || { plan:c.plan, employeeLimit:c.employee_limit, allowedEvalMethods:c.allowed_eval_methods||['kpi'] };
+              const st = paymentStatusInfo(c);
+              const formOpen = state.ui.platformPaymentFormFor === c.id;
+              return `<tr>
+                <td>${esc(c.name)}</td>
+                <td>${esc(c.admin_email||'—')}</td>
+                <td><code>${esc(c.invite_code)}</code></td>
+                <td>${c.employee_count} / <input type="number" min="1" value="${ed.employeeLimit}" style="width:70px;padding:4px 6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);" onchange="setPlatformEditField('${c.id}','employeeLimit',this.value)"></td>
+                <td>
+                  <select onchange="setPlatformEditField('${c.id}','plan',this.value)" style="padding:5px 8px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text);">
+                    <option value="trial" ${ed.plan==='trial'?'selected':''}>${esc(t('companyPlanTrial'))}</option>
+                    <option value="full" ${ed.plan==='full'?'selected':''}>${esc(t('companyPlanFull'))}</option>
+                  </select>
+                </td>
+                <td>
+                  ${EVAL_METHODS.map(([key,icon])=>`<label style="display:inline-flex;align-items:center;gap:3px;margin-inline-end:6px;font-size:12px;">
+                    <input type="checkbox" ${ed.allowedEvalMethods.includes(key)?'checked':''} onchange="togglePlatformEvalMethod('${c.id}','${key}')">${icon}
+                  </label>`).join('')}
+                </td>
+                <td>
+                  <span class="badge ${st.cls}" style="display:block; margin-bottom:4px; white-space:nowrap;">${esc(t(st.key))}</span>
+                  ${c.paid_until ? `<div class="hint" style="white-space:nowrap;">${esc(t('platformPaidUntil'))}: ${esc(fmtDate(c.paid_until))}</div>` : ''}
+                </td>
+                <td style="white-space:nowrap;">
+                  <button class="btn btn-sm btn-gold" onclick="savePlatformCompanyPlan('${c.id}')">${esc(t('save'))}</button>
+                  <button class="btn btn-sm btn-outline" onclick="openPlatformPaymentForm('${c.id}')">💳 ${esc(t('platformRecordPayment'))}</button>
+                </td>
+              </tr>
+              ${formOpen ? `<tr><td colspan="8">
+                <div class="card-flat" style="display:flex; gap:10px; flex-wrap:wrap; align-items:end; padding:12px;">
+                  <div class="field" style="margin:0;"><label>${esc(t('platformAmount'))}</label><input id="pf_amount" type="number" min="1" step="0.01" value="${c.monthly_price||''}" style="width:120px;"></div>
+                  <div class="field" style="margin:0;"><label>${esc(t('platformMethod'))}</label>
+                    <select id="pf_method" style="padding:8px 10px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);">
+                      <option value="instapay">Instapay</option>
+                      <option value="vodafone_cash">Vodafone Cash</option>
+                      <option value="paypal">PayPal</option>
+                      <option value="cash">${state.lang==='ar'?'كاش':'Cash'}</option>
+                      <option value="other">${state.lang==='ar'?'أخرى':'Other'}</option>
+                    </select>
+                  </div>
+                  <div class="field" style="margin:0;"><label>${esc(t('platformExtendDays'))}</label><input id="pf_days" type="number" min="1" value="30" style="width:90px;"></div>
+                  <div class="field" style="margin:0; flex:1; min-width:160px;"><label>${esc(t('platformNote'))}</label><input id="pf_note" placeholder="${esc(t('platformNote'))}"></div>
+                  <button class="btn btn-primary btn-sm" onclick="submitPlatformPayment('${c.id}')">✓ ${esc(t('platformConfirmPayment'))}</button>
+                  <button class="btn btn-ghost btn-sm" onclick="closePlatformPaymentForm()">${esc(t('platformCancel'))}</button>
+                </div>
+              </td></tr>` : ''}`;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:14px; text-align:end;">
+        <button class="btn btn-outline" onclick="closePlatformAdmin()">${esc(t('close'))}</button>
+      </div>
+    </div>
+  </div>`;
 }
 function renderAuthLoading(){
   return `<div style="min-height:100vh; display:flex; align-items:center; justify-content:center; font-size:14px; color:var(--muted, #667);">⏳ ${esc(t('loadingApp'))}</div>`;
@@ -918,10 +1134,78 @@ function renderAuthLoading(){
    Admin with full permissions (see bootstrap_own_profile / profiles_insert_self
    in the database); everyone after that signs up as a plain user and an
    admin grants them real permissions from the Users & Permissions tab. */
+/* ============================== Public pricing table (shown before login) ==============================
+   EGP prices are the real, fixed prices; the USD figure is only a courtesy
+   conversion for non-Egyptian visitors and is recomputed from a live rate —
+   nothing here is ever billed in USD. */
+function getPricingTiers(){
+  const ar = state.lang==='ar';
+  return [
+    { name:'Starter', range: ar?'حتى 25 موظف':'Up to 25 employees', priceEgp:400 },
+    { name:'Growth', range: ar?'حتى 100 موظف':'Up to 100 employees', priceEgp:1200 },
+    { name:'Business', range: ar?'حتى 300 موظف':'Up to 300 employees', priceEgp:2800 },
+    { name:'Enterprise', range: ar?'أكتر من 300 موظف':'300+ employees', priceEgp:null },
+  ];
+}
+let __fetchingRate = false;
+async function fetchUsdEgpRate(){
+  if(__fetchingRate) return;
+  __fetchingRate = true;
+  try{
+    let rate = null;
+    try{
+      const r = await fetch('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json');
+      const j = await r.json();
+      if(j && j.usd && j.usd.egp) rate = j.usd.egp;
+    }catch(e){ /* try the fallback below */ }
+    if(!rate){
+      try{
+        const r2 = await fetch('https://open.er-api.com/v6/latest/USD');
+        const j2 = await r2.json();
+        if(j2 && j2.rates && j2.rates.EGP) rate = j2.rates.EGP;
+      }catch(e){ /* both sources unreachable — leave usdEgpRate as-is */ }
+    }
+    if(rate){ usdEgpRate = rate; usdEgpRateAt = new Date(); }
+  } finally {
+    __fetchingRate = false;
+    if(state.ui.showPricing) render();
+  }
+}
+function openPricing(){ state.ui.showPricing = true; render(); fetchUsdEgpRate(); }
+function closePricing(){ state.ui.showPricing = false; render(); }
+function renderPricingModal(){
+  const tiers = getPricingTiers();
+  const rate = usdEgpRate;
+  const rateLabel = rate ? `1$ ≈ ${rate.toFixed(2)} ${state.lang==='ar'?'ج.م':'EGP'}` : esc(t('pricingRateLoading'));
+  return `
+  <div class="modal-overlay no-print" onclick="if(event.target===this) closePricing()">
+    <div class="modal" style="max-width:780px; width:96%;">
+      <h3>💰 ${esc(t('pricingTitle'))}</h3>
+      <p class="hint">${esc(t('pricingHint'))}</p>
+      <p class="hint">${rateLabel}${rate && usdEgpRateAt ? ' · '+esc(t('pricingUpdated'))+' '+esc(usdEgpRateAt.toLocaleString(state.lang==='ar'?'ar-EG':'en-GB')) : ''}</p>
+      <div class="method-grid" style="grid-template-columns:repeat(4,1fr);">
+        ${tiers.map(tier=>{
+          const usd = (rate && tier.priceEgp) ? (tier.priceEgp/rate).toFixed(1) : null;
+          return `<div class="card" style="text-align:center;">
+            <div style="font-weight:800; font-size:15px;">${esc(tier.name)}</div>
+            <div class="hint" style="margin-bottom:8px;">${esc(tier.range)}</div>
+            ${tier.priceEgp ? `
+              <div style="font-size:22px; font-weight:800; color:var(--navy);">${tier.priceEgp} <span style="font-size:12px; font-weight:600;">${state.lang==='ar'?'ج.م':'EGP'}</span></div>
+              <div class="hint">${usd ? ('≈ $'+usd) : '…'} ${esc(t('pricingPerMonth'))}</div>
+            ` : `<div style="font-size:14px; font-weight:700; margin-top:14px;">${esc(t('pricingContactUs'))}</div>`}
+          </div>`;
+        }).join('')}
+      </div>
+      <div style="margin-top:14px; text-align:end;">
+        <button class="btn btn-outline" onclick="closePricing()">${esc(t('close'))}</button>
+      </div>
+    </div>
+  </div>`;
+}
 function renderAuthScreen(){
   const mode = state.ui.authMode || 'signin';
   const err = state.ui.authError || '';
-  const isFirstRun = (state.users||[]).length===0 && mode==='signup';
+  const joinMode = state.ui.authJoinMode || 'new';
   return `
   <div style="min-height:100vh; display:flex; align-items:center; justify-content:center; padding:20px;">
     <div class="card" style="max-width:420px; width:100%;">
@@ -929,21 +1213,35 @@ function renderAuthScreen(){
       <div style="display:flex; gap:8px; margin-bottom:14px;">
         <button class="btn btn-sm ${mode==='signin'?'btn-primary':'btn-outline'}" onclick="setAuthMode('signin')">${esc(t('login'))}</button>
         <button class="btn btn-sm ${mode==='signup'?'btn-primary':'btn-outline'}" onclick="setAuthMode('signup')">${esc(t('signUp'))}</button>
+        <button class="btn btn-sm btn-ghost" onclick="openPricing()">${esc(t('pricingBtn'))}</button>
       </div>
-      ${isFirstRun ? `<div class="card-warn" style="margin-bottom:10px;">${esc(t('firstAdminHint'))}</div>` : ''}
       ${err ? `<div class="card-warn" style="margin-bottom:10px;">${esc(err)}</div>` : ''}
       ${mode==='signup' ? `<div class="field"><label>${esc(t('userName'))}</label><input id="auth_name" placeholder="${esc(t('userName'))}"></div>` : ''}
       <div class="field"><label>${esc(t('userEmail'))}</label><input id="auth_email" type="email" placeholder="name@company.com"></div>
       <div class="field"><label>${esc(t('authPassword'))}</label><input id="auth_password" type="password" placeholder="••••••••"></div>
+      ${mode==='signup' ? `
+      <div class="field">
+        <label>${esc(t('authCompanyChoice'))}</label>
+        <div style="display:flex; gap:8px; margin-bottom:6px;">
+          <button type="button" class="btn btn-sm ${joinMode==='new'?'btn-primary':'btn-outline'}" onclick="setAuthJoinMode('new')">${esc(t('authNewCompany'))}</button>
+          <button type="button" class="btn btn-sm ${joinMode==='join'?'btn-primary':'btn-outline'}" onclick="setAuthJoinMode('join')">${esc(t('authJoinCompany'))}</button>
+        </div>
+        ${joinMode==='new'
+          ? `<input id="auth_company_name" placeholder="${esc(t('authCompanyNamePh'))}">`
+          : `<input id="auth_invite_code" placeholder="${esc(t('authInviteCodePh'))}">`}
+        <p class="hint">${esc(joinMode==='new' ? t('authNewCompanyHint') : t('authJoinCompanyHint'))}</p>
+      </div>` : ''}
       <p class="hint">${esc(t('securityNote'))}</p>
       <div style="margin-top:10px;">
-        <button class="btn btn-primary" style="width:100%;" onclick="${mode==='signup'?'doSignUp()':'doSignIn()'}">${esc(mode==='signup'?t('firstAdminBtn'):t('loginBtn'))}</button>
+        <button class="btn btn-primary" style="width:100%;" onclick="${mode==='signup'?'doSignUp()':'doSignIn()'}">${esc(mode==='signup'?t('signUp'):t('loginBtn'))}</button>
       </div>
     </div>
   </div>
+  ${state.ui.showPricing ? renderPricingModal() : ''}
   ${renderAppFooter()}`;
 }
 function setAuthMode(m){ state.ui.authMode = m; state.ui.authError=''; render(); }
+function setAuthJoinMode(m){ state.ui.authJoinMode = m; render(); }
 async function doSignIn(){
   const email = document.getElementById('auth_email').value.trim();
   const password = document.getElementById('auth_password').value;
@@ -956,7 +1254,12 @@ async function doSignUp(){
   const name = document.getElementById('auth_name').value.trim();
   const email = document.getElementById('auth_email').value.trim();
   const password = document.getElementById('auth_password').value;
-  if(!name || !email || !password){ showToast(t('requiredWarn')); return; }
+  const joinMode = state.ui.authJoinMode || 'new';
+  const companyName = joinMode==='new' ? (document.getElementById('auth_company_name').value||'').trim() : '';
+  const inviteCode = joinMode==='join' ? (document.getElementById('auth_invite_code').value||'').trim() : '';
+  if(!name || !email || !password || (joinMode==='new' && !companyName) || (joinMode==='join' && !inviteCode)){
+    showToast(t('requiredWarn')); return;
+  }
   const { data, error } = await sb.auth.signUp({ email, password, options:{ data:{ display_name: name } } });
   if(error){ state.ui.authError = error.message; render(); return; }
   if(!data.session){
@@ -967,28 +1270,36 @@ async function doSignUp(){
     render();
     return;
   }
-  await onSignedIn(data.session, name);
+  await onSignedIn(data.session, name, companyName, inviteCode);
 }
 /* Runs after ANY successful sign-in (fresh signup with an immediate session,
    a returning signup after email confirmation, or an ordinary sign-in).
    Ensures this auth account has a profiles row — creating one (via the
-   bootstrap RPC, which grants Admin automatically only if this is the very
-   first account) the first time it's ever seen — then loads all shared data. */
-async function onSignedIn(session, nameHint){
+   bootstrap RPC, which either starts a brand-new company as its Admin, or
+   joins an existing company by invite code as a plain user) the first time
+   it's ever seen — then loads all shared data. */
+async function onSignedIn(session, nameHint, companyName, inviteCode){
   state.session.userId = session.user.id;
   const { data: existing } = await sb.from('profiles').select('id').eq('id', session.user.id).maybeSingle();
   if(!existing){
     const name = nameHint || session.user.user_metadata?.display_name || session.user.email.split('@')[0];
-    await sb.rpc('bootstrap_own_profile', { p_name:name, p_email:session.user.email });
+    const { error } = await sb.rpc('bootstrap_own_profile', { p_name:name, p_email:session.user.email, p_company_name:companyName||null, p_invite_code:inviteCode||null });
+    if(error){
+      await sb.auth.signOut();
+      state.session.userId = null;
+      state.ui.authError = error.message;
+      render();
+      return;
+    }
   }
   await loadAllData();
   state.ui.authError='';
   render();
 }
-function doLogout(){ sb.auth.signOut().then(()=>{ state.session.userId=null; state.users=[]; state.employees=[]; state.departments={}; state.evaluations={}; render(); }); }
+function doLogout(){ sb.auth.signOut().then(()=>{ state.session.userId=null; state.session.isPlatformOwner=false; state.users=[]; state.employees=[]; state.departments={}; state.evaluations={}; render(); }); }
 
 function renderStepper(){
-  const steps = [1,2,3,4,5,6,7];
+  const steps = isTrialPlan() ? [1,2,3,4,5,6] : [1,2,3,4,5,6,7];
   const labels = {1:t('step1D'),2:t('step1'),3:t('stepDept'),4:t('step2'),5:t('step3'),6:t('step4'),7:t('stepUsers')};
   const icons = {1:'📊',2:'👥',3:'🏢',4:'🗂️',5:'✅',6:'📋',7:'🔐'};
   return `<div class="stepper no-print">
@@ -999,11 +1310,12 @@ function renderStepper(){
       </div>`).join('')}
   </div>`;
 }
-function goStep(s){ state.step = s; render(); window.scrollTo({top:0,behavior:'smooth'}); }
+function goStep(s){ if(s===7 && isTrialPlan()){ s=1; } state.step = s; render(); window.scrollTo({top:0,behavior:'smooth'}); }
 function toggleLang(){ state.lang = state.lang==='ar'?'en':'ar'; render(); }
 function toggleTheme(){ state.theme = state.theme==='dark'?'light':'dark'; render(); }
 
 function renderStep(){
+  if(state.step===7 && isTrialPlan()){ state.step = 1; }
   if(state.step===1) return renderDashboardStep();
   if(state.step===2) return renderStep1();
   if(state.step===3) return renderDeptStep();
@@ -1015,6 +1327,52 @@ function renderStep(){
 }
 
 /* ============================== STEP: Dashboard ============================== */
+function renderCompanyInfoCard(){
+  const c = state.company;
+  if(!c) return '';
+  const trial = isTrialPlan();
+  const empCount = state.employees.length;
+  const empLimit = c.employeeLimit;
+  const allowedMethods = (c.allowedEvalMethods||['kpi']).map(m=>methodLabel(m)).join('، ');
+  return `<div class="card" style="border:1px solid var(--border);">
+    <div class="toolbar">
+      <h3 style="margin:0;">🏢 ${esc(t('companyInfoTitle'))}: ${esc(c.name||'')}</h3>
+      <span class="badge ${trial?'badge-orange':'badge-green'}">${trial?esc(t('companyPlanTrial')):esc(t('companyPlanFull'))}</span>
+    </div>
+    <div class="form-grid" style="grid-template-columns:1fr 1fr; gap:10px;">
+      <div>
+        <div class="hint">${esc(t('companyInviteCodeLabel'))}</div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <code style="padding:4px 10px; background:var(--border); border-radius:6px; font-size:14px; letter-spacing:1px;">${esc(c.inviteCode||'')}</code>
+          <button class="btn btn-ghost btn-sm" onclick="copyInviteCode()">📋</button>
+        </div>
+        <div class="hint" style="margin-top:4px;">${esc(t('companyInviteCodeHint'))}</div>
+      </div>
+      ${trial ? `<div>
+        <div class="hint">${esc(t('companyEmployeeUsage'))}</div>
+        <div style="font-weight:700;">${empCount} / ${empLimit}</div>
+        <div class="hint" style="margin-top:8px;">${esc(t('companyEvalMethodsAllowed'))}</div>
+        <div style="font-weight:700;">${esc(allowedMethods)}</div>
+      </div>` : ''}
+    </div>
+    ${trial ? `<div class="card-warn" style="margin-top:12px; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:220px;">💳 ${esc(t('trialContactHint'))}</div>
+      <button class="btn btn-outline btn-sm" onclick="copyInstapayNumber()">📋 01229543271</button>
+    </div>` : ''}
+  </div>`;
+}
+function copyInviteCode(){
+  const code = state.company && state.company.inviteCode;
+  if(!code) return;
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(code).then(()=>showToast(t('copied')||'Copied')).catch(()=>{});
+  }
+}
+function copyInstapayNumber(){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText('01229543271').then(()=>showToast(t('copied')||'Copied')).catch(()=>{});
+  }
+}
 let __dashChartData = null;
 function renderDashboardStep(){
   const ui = state.ui;
@@ -1059,6 +1417,7 @@ function renderDashboardStep(){
       ${(ui.dashDeptFilter||ui.dashMethodFilter) ? `<button class="btn btn-ghost btn-sm" onclick="clearDashFilters()">${esc(t('clearAll'))}</button>` : ''}
     </div>
   </div>
+  ${renderCompanyInfoCard()}
   <div class="method-grid" style="grid-template-columns:repeat(4,1fr);">
     <div class="card" style="text-align:center;"><div style="font-size:26px; font-weight:800; color:var(--navy);">${emps.length}</div><div class="hint">${esc(t('dashTotalEmp'))}</div></div>
     <div class="card" style="text-align:center;"><div style="font-size:26px; font-weight:800; color:var(--green);">${evaluatedIds.size}</div><div class="hint">${esc(t('dashEvaluated'))}</div></div>
@@ -1323,6 +1682,7 @@ function saveEmployeeForm(){
     if(idx>-1) state.employees[idx] = Object.assign({}, state.employees[idx], rec);
     state.ui.editingEmployeeId = null;
   } else {
+    if(employeeLimitReached(1)){ showToast(t('trialLimitReachedEmp')); return; }
     rec.id = uid();
     state.employees.push(rec);
   }
@@ -1563,7 +1923,9 @@ function findOrCreateGradeByName(name){
 function importExcelData(){
   const m = state.ui.mapping;
   let count = 0;
+  let capped = false;
   state.ui.excelRows.forEach(row=>{
+    if(employeeLimitReached(1)){ capped = true; return; }
     const rec = {
       id: uid(),
       code: m.code ? String(row[m.code]||'') : '',
@@ -1623,7 +1985,11 @@ function importExcelData(){
   });
   state.ui.excelHeaders = []; state.ui.excelRows = []; state.ui.mapping = {}; state.ui.excelFileName = ''; state.ui.importDeptCC = {};
   render();
-  showToast((state.lang==='ar'?'تم استيراد ':'Imported ')+count+(state.lang==='ar'?' موظف':' employees'));
+  if(capped){
+    showToast((state.lang==='ar'?'تم استيراد ':'Imported ')+count+(state.lang==='ar'?' موظف - ':' employees - ')+t('trialLimitReachedEmp'));
+  } else {
+    showToast((state.lang==='ar'?'تم استيراد ':'Imported ')+count+(state.lang==='ar'?' موظف':' employees'));
+  }
 }
 function normalizeCategory(v){
   const s = v.trim().toLowerCase();
@@ -2262,13 +2628,14 @@ function renderDeptEvalSection(){
   } else {
     out += `<p class="hint" style="margin-bottom:10px;">${esc(t('pickMethodForDept'))}</p>
     <div class="method-grid">
-      ${EVAL_METHODS.map(([key,icon,label,desc])=>`
+      ${EVAL_METHODS.filter(([key])=>evalMethodAllowed(key)).map(([key,icon,label,desc])=>`
         <div class="method-card" onclick="setDeptEvalMethod('${deptEsc}', '${key}')" style="cursor:pointer;">
           <div class="mi">${icon}</div>
           <div class="mt">${esc(t(label))}</div>
           <div class="md">${esc(t(desc))}</div>
         </div>`).join('')}
-    </div>`;
+    </div>
+    ${isTrialPlan() ? `<p class="hint" style="margin-top:8px;">${esc(t('trialContactHint'))}</p>` : ''}`;
   }
   out += `</div>`;
   if(!rec.evalMethod) return out;
@@ -2344,6 +2711,7 @@ function setEvalEmployee(id){
   render();
 }
 function setDeptEvalMethod(dept, method){
+  if(!evalMethodAllowed(method)){ showToast(t('trialLimitEvalMethod')); return; }
   const impacted = state.employees.filter(e=>e.department===dept && state.evaluations[e.id] && state.evaluations[e.id].method!==method);
   const apply = ()=>{
     state.departments[dept] = state.departments[dept] || {manager:'',sectionHead:'',supervisor:'',businessUnit:'',costCenterCode:'',status:'active'};
