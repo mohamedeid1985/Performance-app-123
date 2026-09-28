@@ -1,7 +1,7 @@
 {
-  "name": "نظام تقييم الأداء | Performance Evaluation System",
-  "short_name": "تقييم الأداء",
-  "description": "نظام إدارة وتقييم أداء الموظفين — قاعدة بيانات الموظفين، الأقسام، الدرجات الوظيفية، وطرق التقييم (KPI, MBO, 360, BARS, Ranking)",
+  "name": "PeopleFlow | HR, Payroll & Performance Suite",
+  "short_name": "PeopleFlow",
+  "description": "نظام إدارة الموارد البشرية الشامل — تقييم الأداء، الرواتب، وشئون العاملين",
   "id": "hr-performance-evaluation",
   "start_url": ".",
   "scope": ".",
